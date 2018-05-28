@@ -5,52 +5,71 @@ permalink: /about/
 feature-img: "img/sample_feature_img_2.png"
 ---
 
-I'm Paul Bowsher, an Independent Software Contractor working in London and the South East.
-
-I am a full-stack, polyglot Software Engineer with a DevOps bent. I enjoy finding creative solutions to complex problems, and making processes scale.
-
-I believe that a good engineer has to understand the underlying architecture their product runs on, and should know how to maintain this platform. I understand when and how to use automated testing and what to target. 
-
-I enjoy learning new technologies as part of a project, and am never scared by a language I don’t know. I love a challenge, and care about the products I create.
-
-I enjoy playing sports, mainly Badminton and Squash, and am a keen follower of Formula 1 and football, both American and English. 
-
+I’m a polyglot Software Engineer and Architect with an operations mindset. I’m a technical leader and mentor, and specialise in scaling and optimising technical teams. I enjoy tackling technical debt in legacy applications. I like scaling systems and eking out every last bit of performance. I work well with product people and explain technical concepts clearly for non technical staff.	
 
 ## Experience and Projects
 
-### April 2015 to present - Software Engineer at Government Digital Service, London
+### October 2016 to present - Lead Developer at Government Digital Service, London
 
-Currently working on the GOV.UK Core Team across a variety of Rails apps. Most work is performed in the open on Github - see my [contributions to the alphagov organisation](https://github.com/boffbowsh) on my Github profile.
+- Overall responsibility for development practices and delivery on GOV.UK
+- Mentored, managed and lead a team of 40+ developers
+- Worked with Product Managers and senior leadership to define GOV.UK roadmap
+- Created [well-regarded process][tech debt] for managing 6 years of technical debt
+- Coordinated GDS developer community with other leads and Senior Civil Servants
+- Systems and infrastructure architecture including migration to AWS
+- Technical strategy including build vs buy decisions and architectural vision
 
-### June 2014 to March 2015 - DevOps / Software Engineer at Lyst Ltd, Shoreditch, London
+### April 2015 to Oct 2016 - Senior Developer at Government Digital Service, London (Contract)
 
-I joined this fashion technology startup in a DevOps capacity in order to provide resource to a stretched Operations team, so that improvements could be made to the deployment of Software and Infrastructure. I helped implement a switch to Docker for all development, leading soon to production deployments of all critical applications using the same build scripts as used in development and testing. The team moved from deploying once a fortnight to 4-5 times daily due to the move to a Continuous Integration pattern. 
+- Developer and later Technical Lead on GOV.UK’s Core Publishing team
+- Migrated a large legacy publishing system to new unified API
+- Worked with Product and Delivery Managers to shape and prioritise work
+- Identified requirements for new API and built features
+- Worked across programme to improve and [automatically check code style][linting]
+- Coordination of mentoring of junior developers across the community
 
-I implemented a new custom Analytics pipeline involving parsing CloudFront logs using AWS Lambda, buffering Page View, Session and Device data in DynamoDB, before finally being inserted into a large Redshift schema of my design. This replacement of the previous incarnation reduced operational complexity of data ingest and halved the time needed for large queries due to the schema being more suited to Redshift and the team’s requirements.
+### June 2014 to April 2015 - DevOps / Software Engineer at Lyst Ltd, London
+
+- Switched to Docker for build, CI and production deployment
+- Moved from fortnightly releases to deploying 5 times a day
+- Built an analytics pipeline for Cloudfront Logs with Lambda, DynamoDB and Redshift
 
 ### February 2012 to June 2014 - Senior Software Engineer at Global Personals Ltd, Windsor
 
-I worked mostly on scaling the back-end services of this dating company, improving response times for customers and reducing latency on background processing. I helped scale the email delivery to around 13 million emails a day, and introduced a high performance service to split this load intelligently across two separate providers. 
-
-In order to help the team iterate more quickly, I lead a drive to massively increase unit test coverage across the platform and implemented Continuous Integration for 45 projects in Ruby and JS. As a result of the improved velocity, I introduced a handful of microservices in newer technologies more suitable to the critical workflows. I increased the throughput of one particular service by a factor of one hundred, whilst using 20% of the previous CPU resource.
-
-As a member of the Senior Developer team, I was responsible for onboarding new hires, including mentoring juniors for extended periods. 
+- Focused on scaling backend services
+- Scaled email delivery to 13 million messages per day
+- Vastly improved unit test coverage and implemented Continuous Integration
+- Ported microservices to more suitable languages and frameworks to increase throughput
+- Interviewed, welcomed and mentored new hires
 
 ### June 2009 to February 2012 - Technical Director at Rawnet Ltd, Windsor
 
-Initially hired as a Web Developer using Ruby on Rails, I was soon promoted to Technical Director, overseeing the Web Development and Server Infrastructure of the business. 
-I was the leading technical contributor in a wide range of client projects, including a bespoke CRM for a large publisher, an automated broadcast video library for a PR firm and using a CDN with ESI/SSI to scale the website for Williams F1 to handle load spikes.
-
-I managed a team of 9 developers of varying seniority, and regularly accompanied Sales Executives on pitches, providing bid-winning technical ideas at the Sales stage of projects.
+- Ruby Web Developer later promoted to Technical Director of award-winning web agency
+- Overall responsibility for all development and server infrastructure
+- Direct management of team of 9 developers of varying levels and seniority
+- Leading technical contributor in a wide range of client projects
+- Built a bespoke CRM for a large legal publisher
+- Created automated broadcast video library for a PR firm
+- Scaled Williams F1 website to handle load spikes using dynamic includes at the CDN
+- Accompanied Sales executives on pitches and provided bid-winning technical ideas
 
 ### August 2007 to June 2009 - Developer at Multiplay (UK) Ltd, Southampton
 
-Initially recruited to build the new website for this gaming company, I soon took an active role in maintaining the existing server control infrastructure and built other new systems, notably a large-scale file and video distribution site. This gave me experience in catering to big volumes of traffic, including distributing 50,000 beta keys and multi-gig downloads in a single day.
+- Created large scale file distribution site before CDNs were affordable
+- Maintained and improved legacy Perl system for game server control
+- Worked as an Event Manager during 2,000+ attendee gaming shows
 
-### December 2005 to August 2007 - Lead Developer at TNWA Ltd, London
-	
-An initial employee of this cash-gaming startup, I ported our outsourced application to ASP.NET and wrote a Python backend to communicate with game servers and handle financial transactions. I created another Python backend for our Windows anti-cheat application using a custom binary protocol, including multiple levels of security handshakes. 
+### December 2005 to August 2007 - Lead Developer at TNWA Ltd, London
+
+- Initial employee of cash-gaming startup
+- Ported outsourced ASP Classic application to ASP.NET
+- Created Python backend for game server communication and financial transactions
+- Implemented Python application for Windows anti-cheat application
 
 ### May 2004 to December 2005 - IT Support / Developer at Simply Stuck Ltd, Andover, Hants
 
-I designed and implemented an automated system for printing customised name labels for Children’s clothes. This automated the printing run on industrial vinyl printers by scripting Adobe Illustrator, saving the company hundreds of man hours a month.
+- Created automated printing system for customised children’s clothing labels
+- Saved hundreds of hours of labour per month and reduced errors
+
+[tech debt]: https://insidegovuk.blog.gov.uk/2018/02/19/classifying-and-measuring-tech-debt-in-gov-uk/
+[linting]: https://gdstechnology.blog.gov.uk/2016/09/30/easing-the-process-of-pull-request-reviews/

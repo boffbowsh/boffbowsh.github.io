@@ -5,21 +5,15 @@ url: "http://www.boffbowsh.co.uk" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Paul Bowsher - Independent Software Contractor
-  avatar: avatar.png
+  title: Paul Bowsher - Software Engineer and Technical Lead
+  avatar: avatar.jpeg
   gravatar: ff870982e84d7f6dd6e1af91ab4e3797
-  description: "Personal Blog and Portfolio of Paul Bowsher, A Software Contractor in London" # used by search engines
+  description: "Personal Blog and Portfolio of Paul Bowsher, A Lead Software Engineer in London" # used by search engines
 
   # Header and footer text
-  header_text: >
-    <p>Independent Software Contractor in London, currently at Government Digital Service.</p>
-
-    <p>Does Ruby, Python, Node/io.js and DevOps. Happy to learn other stuff for food.</p>
-
-    <p>Specialises in Distributed Systems, scaling things and making graphs go the right way.</p>
+  #header_text: >
+  #  <p>Lead Software Engineer, Architect and Technical mentor</p>
   header_text_feature_image:
-  footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
 
   # Icons
   rss: false
